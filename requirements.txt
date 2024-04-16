@@ -7,6 +7,9 @@ notebook~=7.1.2
 # Python kernel (optional)
 jupyterlite-pyodide-kernel==0.3.1
 
+
+jupyterlab-open-url-parameter==0.3.0
+
 # JavaScript kernel (optional)
 jupyterlite-javascript-kernel==0.3.0
 
