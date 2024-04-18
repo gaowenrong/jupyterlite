@@ -24,6 +24,8 @@ jobs:
       - name: Download required Python packages
         run: |
           python -m pip download pandas numpy scikit-learn matplotlib statsmodels seaborn
+      - name: Create directory for packages
+        run: mkdir -p dist/pyodide/packages/
       - name: Unzip and copy packages to Pyodide's filesystem
         run: |
           unzip -o pandas*.whl -d dist/pyodide/packages/
