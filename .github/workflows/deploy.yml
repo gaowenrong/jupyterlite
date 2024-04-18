@@ -31,6 +31,8 @@ jobs:
       - name: ls
         run: |
           ls
+      - name: ls ./dist
+        run: |
           ls ./dist
           ls ./dist/pyodide
       - name: Unzip and copy packages to Pyodide's filesystem
